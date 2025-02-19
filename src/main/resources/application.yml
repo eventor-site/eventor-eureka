@@ -14,13 +14,6 @@ spring:
       name: root
       password: 1q2w3e4r!
 
-eureka:
-  client:
-    fetch-registry: false
-    register-with-eureka: false
-    service-url:
-      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@localhost:8761/eureka/
-
 logging:
   file:
     path: ./logs
