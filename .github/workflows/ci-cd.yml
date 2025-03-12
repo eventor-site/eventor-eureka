@@ -6,6 +6,7 @@ on:
 
 jobs:
   build:
+    # 테스트용 환경 변수
     env:
       EUREKA_USERNAME: ${{ secrets.EUREKA_USERNAME }}
       EUREKA_PASSWORD: ${{ secrets.EUREKA_PASSWORD }}
