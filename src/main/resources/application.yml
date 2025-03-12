@@ -11,8 +11,8 @@ spring:
     active: dev
   security:
     user:
-      name: root
-      password: 1q2w3e4r!
+      name: ${EUREKA_USERNAME}
+      password: ${EUREKA_PASSWORD}
 
 logging:
   file:
